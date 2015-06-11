@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DanMuLog.cs" />
     <Compile Include="Models\DanMuModel.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="LiveDanMu.cs" />

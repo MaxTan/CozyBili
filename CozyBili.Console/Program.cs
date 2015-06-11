@@ -1,6 +1,7 @@
 ﻿using System;
 using CozyBili.Core;
 using CozyBili.Core.Models;
+using System.Collections.Generic;
 
 namespace CozyBili
 {
@@ -11,6 +12,7 @@ namespace CozyBili
             string myRoomId = "21065";
             var roomId = args.Length > 0 ? args[0] : myRoomId;
             var title = "CozyBili V1.0";
+
             var danmu = new LiveDanMu(int.Parse(roomId));
             danmu.OnlineNumChanged += x => Console.Title = string.Format("{0} - {1}号房间 - 当前在线人数{2}", title, roomId, x);
             danmu.ReceiveDanMu += ShowDanMu;
@@ -32,8 +34,8 @@ namespace CozyBili
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(danMuModel.Content);
             Console.ForegroundColor = ConsoleColor.White;
-
         }
+
 
     }
 }

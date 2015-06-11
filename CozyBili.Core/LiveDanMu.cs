@@ -167,6 +167,7 @@ namespace CozyBili.Core {
         private void TirggerReceiveDanMu(DanMuModel danMuModel) {
             if (ReceiveDanMu != null) {
                 ReceiveDanMu(danMuModel);
+                DanMuLog.GetInstance().WriteFile(danMuModel);
             }
         }
 
