@@ -1,4 +1,4 @@
-# CozyBili  [![Build Status](https://ci.appveyor.com/api/projects/status/github/MaxTan/CozyBili?svg=true)]("https://ci.appveyor.com/project/MaxTan/cozybili")
+# CozyBili  [![Build Status](https://ci.appveyor.com/api/projects/status/github/MaxTan/CozyBili?svg=true)](https://ci.appveyor.com/project/MaxTan/cozybili)
 
 这是一个获取B站生放送直播弹幕的工具：
 
